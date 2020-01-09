@@ -1,3 +1,4 @@
+
 1) Какие у вас ожидания от курса. Есть ли конкретные вопросы по теме Базы данных.
 
 Обучаюсь на факультете Geek University аналитики Big Data.
@@ -15,4 +16,24 @@
  
 3) Если в IT, то какой у вас опыт (инструменты, технологии, языки программирования)
 
-Опыта нет.
+Опыта нет
+
+По установке:
+Основная ОС Windows 10
+
+Установлен Oracle VM VirtualBox
+На него установлена Ubuntu 18 64-bit
+Произведены все необходимые обновления через терминал согласно файлу examples и видео вебинара.
+
+Устанавливлено MySQL 8 на ubuntu 18 и 
+wget -c https://dev.mysql.com/get/mysql-apt-config_0.8.10-1_all.deb
+sudo apt-key adv --keyserver keys.gnupg.net --recv-keys 5072E1F5
+sudo dpkg -i mysql-apt-config_0.8.10-1_all.deb
+sudo apt update
+sudo apt-get install mysql-server
+Версия правильная.
+
+На ОС Windows 10 Putty и Dbeaver, соединение протестировано успешно :)
+MySQL Workbench установлен на ubunty 18.
+
+Все работает, спасибо за помощь
